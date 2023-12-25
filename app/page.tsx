@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <h1>this is ali Saremi project</h1>
-      <Link href="/users">click here</Link>
+      <Link href="/users">go to users page</Link>
       <ProductCard />
     </main>
   );
