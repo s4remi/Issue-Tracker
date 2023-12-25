@@ -5,7 +5,12 @@ interface User {
 }
 
 const UsersPage = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const res = await fetch("https://jsonplaceholder.typicode.com/users", {
+    // no caching when we want to have a fresh data
+    // cache: "no-store",
+    // caching after certain amount of time in this case 10s
+    next: { revalidate: 10 },
+  });
   const users: User[] = await res.json();
   return (
     <>
