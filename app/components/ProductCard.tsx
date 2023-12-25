@@ -1,9 +1,9 @@
 import React from "react";
-import AddToCard from "./AddToCard";
+import AddToCart from "./AddToCard";
 const ProductCard = () => {
   return (
     <div>
-      <AddToCard />
+      <AddToCart />
     </div>
   );
 };
