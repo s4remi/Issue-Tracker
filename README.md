@@ -22,12 +22,26 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+this is a full stuck production tracking issues that has features like. dashboard, charts, sorting, filtering, pagination, CRUD, Auth, Forms, Caching, Icons, Skeletons, Dialogs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+in the dashboard we can see the lates issues and status of each issues. Using MySQL database.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+assigning issues to users to solve
+
+Technology used in this project:
+NextJS, Tailwind,Radix UI, Prisma, react query, react book forms, Zod
+
+extra extensions for this application:
+
+- ES7+React/Redux/React-Native from dsznajder
+- javaScripts and TypeScript Nightly
+- Tailwind CSS IntelliSense from Tailwind labs
+
+npm run dev , and the port is 3000
+
+Control+space this opens up the option for auto complete for coding
+
+daisyUi is like a bootstrap for tailwind, it has lots of components to use.
 
 ## Deploy on Vercel
 
