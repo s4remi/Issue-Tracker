@@ -1,4 +1,5 @@
 import React from "react";
+import AddToCart from "../components/AddToCard";
 interface User {
   id: number;
   name: string;
@@ -33,6 +34,18 @@ const UsersPage = async () => {
           ))}
         </tbody>
       </table>
+      <p className="salam">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat
+        voluptates recusandae veniam nisi libero eius quasi iure consequuntur
+        perferendis, numquam, suscipit voluptate quo! Fugit corrupti earum fuga
+        natus odio.
+      </p>
+      <h2>
+        {" "}
+        this is where I need to modify the button click to make sure it can go
+        back to the previous page
+      </h2>
+      <AddToCart />
     </>
   );
 };

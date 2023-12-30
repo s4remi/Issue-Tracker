@@ -5,6 +5,7 @@ const ProductCard = () => {
   return (
     <div>
       <AddToCart />
+      <p>we are here! isn't it</p>
     </div>
   );
 };
